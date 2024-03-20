@@ -23,7 +23,7 @@ jobs:
 #    - name: Build with MacOs
 #      run: ./gradlew.bat packageReleaseDmg
     - name: upload
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: artifact
         path: ${{ github.workspace }}/build/compose/binaries/main-release/msi/**
