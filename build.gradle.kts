@@ -24,7 +24,7 @@ kotlin {
             dependencies {
                 implementation(compose.desktop.currentOs)
                 implementation("com.github.mifmif:generex:1.0.2")
-                implementation("com.google.code.gson:gson:2.10")// https://mvnrepository.com/artifact/com.google.code.gson/gson
+                implementation("com.google.code.gson:gson:2.10.1")// https://mvnrepository.com/artifact/com.google.code.gson/gson
             }
         }
         val jvmTest by getting
